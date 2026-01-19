@@ -1,0 +1,48 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+
+# -----------------------
+# Jupyter / Colab
+# -----------------------
+.ipynb_checkpoints/
+
+# -----------------------
+# Data files (DO NOT TRACK)
+# -----------------------
+data/raw/
+data/processed/
+data/historical/
+*.csv
+*.parquet
+*.xlsx
+
+# -----------------------
+# Logs
+# -----------------------
+logs/
+*.log
+
+# -----------------------
+# Models
+# -----------------------
+models/*.pkl
+models/*.joblib
+
+# -----------------------
+# OS files
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# IDE / Editor
+# -----------------------
+.vscode/
+.idea/
